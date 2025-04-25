@@ -1,2 +1,2 @@
-import { convertAll } from './convertCurrency.js';
-convertAll(2000);
+import { getValues } from './client.js';
+getValues();  

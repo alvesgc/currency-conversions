@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script type = 'module' src="./index.js"></script>
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src=".//src/index.js"></script>
+    <link rel="stylesheet" href="./styles.css" type="text/css" />
+    <title>Currency Converter</title>
+  </head>
+  <body>
+    <header id="header-container">
+      <h1>Conversor de valores</h1>
+    </header>
+    <main id="main-container">
+      <p>Insira os valores para conversão</p>
+      <div id="currencyInput">
+        <label for="currencyInput">Valor:</label>
+        <input type="text"
+        id = 'currencyInputValue'
+        placeholder="Digite o valor"
+        type ="number" />
+        <button id="currencyButton">
+          Converter
+        </button>
+        <div id="valorConvertido"></div>
+      </div>
+    </main>
+  </body>
 </html>
